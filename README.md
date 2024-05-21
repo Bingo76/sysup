@@ -12,8 +12,8 @@ chmod +x /sysup/setup.sh
 sudo ./setup.sh
 ```
 #### Configure .xinitrc
+Include in .xinitrc:
 ```
-Include in .xinitrc
 feg --bg-fill PATH/TO/WALL
 slstatus
 exec dwm
